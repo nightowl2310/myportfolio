@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   # Minimal Portfolio Website Design
 
@@ -9,3 +10,6 @@
 
   Run `npm run dev` to start the development server.
   
+=======
+# myportfolio
+>>>>>>> 73fdb8ba2c0a130e106b36a6a82bc652423c520a

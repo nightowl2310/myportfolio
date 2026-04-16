@@ -107,7 +107,7 @@ export const Hero = () => {
             
             <div className="relative w-72 h-72 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white dark:border-neutral-900 shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1759926967575-e3254dc7d531?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkZXNpZ25lciUyMHBvcnRyYWl0JTIwaGVhZHNob3R8ZW58MXx8fHwxNzc2MTk4MjkyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+                src="/images/kavyansh_saxena.png"
                 alt="Kavyansh Saxena"
                 className="w-full h-full object-cover"
               />
