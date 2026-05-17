@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { ExternalLink } from "lucide-react";
 
 const screenshots = [
@@ -5,7 +6,7 @@ const screenshots = [
   "/images/rcc2.png",
 ];
 
-export default function RecruitersConnect() {
+export default function recruitersronnect() {
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden">
       {/* GLOW */}
@@ -66,8 +67,7 @@ The UI is built with a clean and corporate focused design approach featuring org
               rel="noopener noreferrer"
               className="border border-zinc-700 hover:border-violet-400 transition-all px-8 py-4 rounded-full text-lg flex items-center gap-3"
             >
-              <ExternalLink size={20} />
-              Figma Prototype
+              View Figma
             </a>
           </div>
         </div>
