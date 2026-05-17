@@ -6,7 +6,7 @@ const screenshots = [
   "/images/rcc2.png",
 ];
 
-export default function recruitersronnect() {
+export default function recruitersconnect() {
   return (
     <div className="min-h-screen bg-black text-white overflow-hidden">
       {/* GLOW */}
