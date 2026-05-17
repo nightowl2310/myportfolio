@@ -14,20 +14,9 @@ interface Project {
 }
 
 const projects: Project[] = [
+
   {
     id: 1,
-    title: 'LearnSphere',
-    description: 'Personalized course roadmap generator',
-    focus: 'UX',
-    highlight:
-      'Improved task completion efficiency and reduced drop-offs',
-    tags: ['UX', 'UI', 'Product'],
-    image: '/images/kavyansh_saxena.png',
-    accentColor: 'emerald',
-    link: '/LearnSphere',
-  },
-  {
-    id: 2,
     title: 'IET DAVV Website',
     description:
       'Full redesign of a college website serving 4000+ users',
@@ -35,12 +24,12 @@ const projects: Project[] = [
     highlight:
       'Improved accessibility and structured information architecture',
     tags: ['UX', 'UI', 'Responsive'],
-    image: '/images/kavyansh_saxena.png',
+    image: '/images/iet1.png',
     accentColor: 'cyan',
     link: '/iet-davv',
   },
   {
-    id: 3,
+    id: 2,
     title: 'Recruiters Connect',
     description:
       'Freelance project for a UAE-based client — Platform connecting recruiters and candidates',
@@ -48,9 +37,21 @@ const projects: Project[] = [
     highlight:
       'Delivered a complete production-ready design based on real client requirements',
     tags: ['UX', 'UI', 'Freelance', 'Product'],
-    image: '/images/kavyansh_saxena.png',
+    image: '/images/rcc1.png',
     accentColor: 'violet',
     link: '/recruiters-connect',
+  },
+    {
+    id: 3,
+    title: 'LearnSphere',
+    description: 'Personalized course roadmap generator',
+    focus: 'UX',
+    highlight:
+      'Improved task completion efficiency and reduced drop-offs',
+    tags: ['UX', 'UI', 'Product'],
+    image: '/images/Frame 1.png',
+    accentColor: 'emerald',
+    link: '/LearnSphere',
   },
 ];
 

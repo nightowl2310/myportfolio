@@ -65,7 +65,7 @@ export const About = () => {
               >
                 My experience spans real client projects and community initiatives, from designing for a UAE-based recruitment platform to leading design at{' '}
                 <span className="font-semibold text-neutral-700 dark:text-neutral-300">
-                  GDG
+                  Google Developer Group
                 </span>
                 . I approach every project with structured thinking and attention to detail.
               </motion.p>

@@ -14,7 +14,7 @@ export const Hero = () => {
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
-  const scrollToWork = () => {
+  const scrollToSelectedWork = () => {
     document.getElementById('work')?.scrollIntoView({ behavior: 'smooth' });
   };
 
@@ -162,7 +162,7 @@ export const Hero = () => {
               transition={{ delay: 0.5 }}
             >
               <motion.button
-                onClick={scrollToWork}
+                onClick={scrollToSelectedWork}
                 className="group px-8 py-4 bg-emerald-400 text-neutral-900 rounded-full font-medium flex items-center gap-2 shadow-lg hover:shadow-xl hover:bg-emerald-500 transition-all"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}

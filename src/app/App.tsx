@@ -6,7 +6,7 @@ import { Hero } from "./components/Hero";
 import { SelectedWork } from "./components/SelectedWork";
 import { About } from "./components/About";
 import { Skills } from "./components/Skills";
-import { DesignProcess } from "./components/DesignProcess";
+// import { DesignProcess } from "./components/DesignProcess";
 import { DesignToCode } from "./components/DesignToCode";
 import { Contact } from "./components/Contact";
 import { ScrollToTop } from "./components/ScrollToTop";
@@ -24,7 +24,7 @@ function HomePage() {
         <SelectedWork />
         <About />
         <Skills />
-        <DesignProcess />
+        {/* <DesignProcess /> */}
         <DesignToCode />
         <Contact />
       </div>

@@ -1,12 +1,10 @@
 import { ExternalLink } from "lucide-react";
 
 const screenshots = [
-  "/images/iet/1.png",
-  "/images/iet/2.png",
-  "/images/iet/3.png",
-  "/images/iet/4.png",
-  "/images/iet/5.png",
-  "/images/iet/6.png",
+  "/images/iet1.png",
+  "/images/iet2.png",
+  "/images/iet3.png",
+  "/images/iet4.png",
 ];
 
 export default function IETDAVV() {
@@ -22,14 +20,14 @@ export default function IETDAVV() {
           <div className="absolute inset-0 bg-cyan-400/30 blur-[80px] rounded-full scale-125" />
 
           <img
-            src="/images/iet/mockup.png"
+            src="/images/iet1.png"
             alt="IET DAVV Website"
             className="relative w-[360px] rounded-[32px] border-4 border-zinc-900 shadow-2xl"
           />
 
-          <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 bg-cyan-400 text-black px-6 py-3 rounded-full text-lg font-semibold shadow-lg">
+          {/* <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 bg-cyan-400 text-black px-6 py-3 rounded-full text-lg font-semibold shadow-lg">
             ✦ Institutional Design System
-          </div>
+          </div> */}
         </div>
 
         {/* CONTENT */}
@@ -50,9 +48,9 @@ export default function IETDAVV() {
           </p>
 
           <p className="mt-8 text-zinc-500 text-lg leading-9">
-            A modern university website experience focused on accessibility,
-            streamlined navigation, responsive layouts, and structured
-            information architecture for students, faculty, and visitors.
+            The IET DAVV website is designed as a modern digital platform focused on creating a seamless experience for students, faculty, and visitors. With more than 50 pages, the platform organizes academic, administrative, and institutional information through a structured and user friendly interface while maintaining secure handling of confidential data.
+
+The UI follows a clean and professional design system with intuitive navigation, responsive layouts, interactive sections, and visually balanced content presentation. The overall experience is built to make information easily accessible while reflecting the institution’s identity in a polished and organized manner.
           </p>
 
           <div className="flex flex-wrap gap-5 mt-12">
@@ -64,13 +62,13 @@ export default function IETDAVV() {
             </a>
 
             <a
-              href="https://yourwebsite.com"
+              href=""
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-zinc-700 hover:border-cyan-400 transition-all px-8 py-4 rounded-full text-lg flex items-center gap-3"
+              className="border border-zinc-700 hover:border-violet-400 transition-all px-8 py-4 rounded-full text-lg flex items-center gap-3"
             >
               <ExternalLink size={20} />
-              Visit Website
+              Figma Prototype
             </a>
           </div>
         </div>

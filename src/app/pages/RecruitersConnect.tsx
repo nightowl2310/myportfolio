@@ -1,12 +1,8 @@
 import { ExternalLink } from "lucide-react";
 
 const screenshots = [
-  "/images/recruiters/1.png",
-  "/images/recruiters/2.png",
-  "/images/recruiters/3.png",
-  "/images/recruiters/4.png",
-  "/images/recruiters/5.png",
-  "/images/recruiters/6.png",
+  "/images/rcc1.png",
+  "/images/rcc2.png",
 ];
 
 export default function RecruitersConnect() {
@@ -22,14 +18,14 @@ export default function RecruitersConnect() {
           <div className="absolute inset-0 bg-violet-400/30 blur-[80px] rounded-full scale-125" />
 
           <img
-            src="/images/recruiters/mockup.png"
+            src="/images/rc1.png"
             alt="Recruiter's Connect"
             className="relative w-[360px] rounded-[32px] border-4 border-zinc-900 shadow-2xl"
           />
 
-          <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 bg-violet-400 text-black px-6 py-3 rounded-full text-lg font-semibold shadow-lg">
+          {/* <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 bg-violet-400 text-black px-6 py-3 rounded-full text-lg font-semibold shadow-lg">
             ✦ Hiring Platform Experience
-          </div>
+          </div> */}
         </div>
 
         {/* CONTENT */}
@@ -51,10 +47,9 @@ export default function RecruitersConnect() {
           </p>
 
           <p className="mt-8 text-zinc-500 text-lg leading-9">
-            Recruiter's Connect is a modern recruitment platform designed to
-            simplify hiring pipelines, candidate tracking, and recruiter
-            communication through intuitive dashboards and clean interaction
-            systems.
+            Recruiters Connect is a professional networking platform designed to help recruiters collaborate and connect across international markets. The platform creates a streamlined space where recruiters can recommend, share, and discover potential candidates through trusted professional networks, making talent sourcing faster and more efficient.
+
+The UI is built with a clean and corporate focused design approach featuring organized dashboards, structured candidate profiles, smooth navigation, and communication friendly layouts. The platform emphasizes clarity, accessibility, and efficient interaction to ensure a seamless experience for recruiters managing global hiring connections.
           </p>
 
           <div className="flex flex-wrap gap-5 mt-12">
@@ -66,13 +61,13 @@ export default function RecruitersConnect() {
             </a>
 
             <a
-              href="https://yourwebsite.com"
+              href="https://www.figma.com/design/5MK3HoLPUEqfpVLdaYgKQ7/Recruiters-Connect--copy-?node-id=0-1&t=akkyGmoFmQoOtpbl-1"
               target="_blank"
               rel="noopener noreferrer"
               className="border border-zinc-700 hover:border-violet-400 transition-all px-8 py-4 rounded-full text-lg flex items-center gap-3"
             >
               <ExternalLink size={20} />
-              Live Platform
+              Figma Prototype
             </a>
           </div>
         </div>
@@ -110,6 +105,7 @@ export default function RecruitersConnect() {
           ))}
         </div>
       </section>
+      
     </div>
   );
 }

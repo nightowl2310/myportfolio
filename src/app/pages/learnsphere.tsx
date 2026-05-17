@@ -3,12 +3,8 @@ import { Link } from "react-router-dom";
 
 
 const screenshots = [
-  "/images/kavyansh_saxena.png",
-  "/images/kavyansh_saxena.png",
-  "/images/LearnSphere/3.png",
-  "/images/LearnSphere/4.png",
-  "/images/LearnSphere/5.png",
-  "/images/LearnSphere/6.png",
+  "/images/Frame 1.png",
+  "/images/Frame 2.png",
 ];
 
 export default function LearnSphere() {
@@ -24,14 +20,14 @@ export default function LearnSphere() {
           <div className="absolute inset-0 bg-emerald-400/30 blur-[80px] rounded-full scale-125" />
 
           <img
-            src="/images/kavyansh_saxena.png"
+            src="/images/ls1.png"
             alt="LearnSphere Preview"
             className="relative w-[360px] rounded-[32px] border-4 border-zinc-900 shadow-2xl"
           />
 
-          <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 bg-emerald-400 text-black px-6 py-3 rounded-full text-lg font-semibold shadow-lg">
+          {/* <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 bg-emerald-400 text-black px-6 py-3 rounded-full text-lg font-semibold shadow-lg">
             ✦ Modern Learning Experience
-          </div>
+          </div> */}
         </div>
 
         {/* RIGHT CONTENT */}
@@ -52,10 +48,9 @@ export default function LearnSphere() {
           </p>
 
           <p className="mt-8 text-zinc-500 text-lg leading-9">
-            LearnSphere is a modern educational platform focused on seamless
-            navigation, engaging learning experiences, and clean user flows.
-            The design system emphasizes clarity, accessibility, and structured
-            interactions for students and educators.
+            LearnSphere is designed as a clean and student friendly platform that simplifies career guidance through an interactive and personalized experience. The app focuses on helping students discover practical learning paths aligned with industry needs instead of overwhelming them with random resources.
+
+The UI follows a minimal and modern design language with smooth onboarding screens, progress indicators, guided forms, and visually structured roadmaps that make learning paths easy to understand. Soft color palettes, spacious layouts, and intuitive navigation create a distraction free experience while keeping the platform engaging and approachable for students.
           </p>
 
           {/* BUTTONS */}
@@ -67,13 +62,16 @@ export default function LearnSphere() {
               View Designs →
             </a>
 
-            <Link
-              to="/iet-davv"
-              className="border border-zinc-700 hover:border-emerald-400 transition-all px-8 py-4 rounded-full text-lg flex items-center gap-3"
+            <a
+              href="https://www.figma.com/design/wxtmb881sqKSvfIbZMzykN/UI-UX-design-LearnSphere?node-id=0-1&t=a9jIzhsWGyVgZgVM-1https://www.figma.com/design/wxtmb881sqKSvfIbZMzykN/UI-UX-design-LearnSphere?node-id=0-1&t=a9jIzhsWGyVgZgVM-1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-zinc-700 hover:border-violet-400 transition-all px-8 py-4 rounded-full text-lg flex items-center gap-3"
             >
               
-              Go To Home
-            </Link>
+              View Figma
+            </a>
+
           </div>
         </div>
       </section>
@@ -117,7 +115,7 @@ export default function LearnSphere() {
         <div className="border border-zinc-800 bg-zinc-950 rounded-[36px] p-14 text-center relative overflow-hidden">
           <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[300px] h-[300px] bg-emerald-500/20 blur-[120px]" />
 
-          <h2 className="text-5xl font-light leading-tight">
+          {/* <h2 className="text-5xl font-light leading-tight">
             Want to explore the
             <span className="text-emerald-400"> full platform?</span>
           </h2>
@@ -125,13 +123,13 @@ export default function LearnSphere() {
           <p className="text-zinc-500 text-lg mt-6 max-w-2xl mx-auto leading-8">
             Explore the live experience and see how the platform combines
             modern UI design with intuitive educational workflows.
-          </p>
+          </p> */}
 
 <Link
-  to="/iet-davv"
+  to="/"
   className="inline-flex items-center gap-3 bg-emerald-400 hover:bg-emerald-300 transition-all text-black px-8 py-4 rounded-full text-lg font-semibold mt-10"
 >
-  Visit IET DAVV →
+  Visit Home →
 </Link>
 
         </div>
