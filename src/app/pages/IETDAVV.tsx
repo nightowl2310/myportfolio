@@ -21,7 +21,7 @@ export default function IETDAVV() {
           <div className="absolute inset-0 bg-cyan-400/30 blur-[80px] rounded-full scale-125" />
 
           <img
-            src="/images/iet1.png"
+            src="/images/ietdavv.png"
             alt="IET DAVV Website"
             className="relative w-[360px] rounded-[32px] border-4 border-zinc-900 shadow-2xl"
           />
